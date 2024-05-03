@@ -26,7 +26,7 @@ const Crud = () => {
             <tr>
               <th className="px-6 py-3  text-xs font-medium uppercase  border-r border-gray-600">ID</th>
               <th className="px-6 py-3 text-xs font-medium uppercase  border-r border-gray-600">Name</th>
-              <th className="px-6 py-3 text-xs font-medium uppercase r">Data</th>
+              <th className="px-6 py-3 text-xs font-medium uppercase ">Data</th>
             </tr>
           </thead>
           <tbody className="bg-gray-50 divide-y divide-gray-200">

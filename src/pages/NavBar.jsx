@@ -9,8 +9,8 @@ const NavBar = () => {
           
             <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
               <NavLink to={'/crud'} className="nav-link">CRUD</NavLink>
-              <NavLink to={'/data'} className="nav-link">Manipulation</NavLink>
-              <NavLink to={'/data-display'} className="nav-link">Display</NavLink>
+              <NavLink to={'/data'} className="nav-link">Data-Manipulation</NavLink>
+              <NavLink to={'/data-display'} className="nav-link">Data-Display</NavLink>
               <NavLink to={'/dom'} className="nav-link">Router-Dom</NavLink>
               <NavLink to={'/form'} className="nav-link">Forms</NavLink>
               <NavLink to={'/hook'} className="nav-link">Hooks</NavLink>
