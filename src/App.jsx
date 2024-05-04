@@ -11,6 +11,8 @@ import Image from './pages/Image'
 import Props from './pages/Props'
 import Selection from './pages/Selection'
 import Style from './pages/Style'
+import Cards from "./pages/Cards"
+import Accord from './pages/Accord'
 
 function App() {
   
@@ -28,6 +30,8 @@ function App() {
           <Route path="/props" element={<Props/>}/>
           <Route path="/selection" element={<Selection/>}/>
           <Route path="/styling" element={<Style/>}/>
+          <Route path="/card" element={<Cards/>}/>
+          <Route path="/accord" element={<Accord/>}/>
         </Route>
       </Routes> 
     </Router>
